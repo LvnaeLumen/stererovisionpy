@@ -1,0 +1,5 @@
+'Space' - toggle color mode
+v - disparity map
+b\n - [left\right] original image with distance stamps
+d - toggle object detection on main frame
+k - toggle measure distance to leftcliked point
