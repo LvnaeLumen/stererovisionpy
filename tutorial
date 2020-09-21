@@ -1,0 +1,18 @@
+1) Install matplotlib
+	python -m pip install -U pip
+	python -m pip install -U matplotlib
+2) Install yolo (optional)
+	git clone **/pjreddit/darknet
+	cd darknet
+	make
+	wget https://pjreddie.com/media/files/yolo3.weights
+Errors:
+1) Opencv Errors
+(Re)Install opencv
+	(pip uninstall opencv-contrib-python opencv-python)
+	pip install opencv-contrib-pythond
+2) ASSERT false in file qasciikey.cp, line 501
+Problems with english keyborad
+Possible solution 1:
+	pip install qtconsole
+
