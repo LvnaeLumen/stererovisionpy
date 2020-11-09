@@ -6,6 +6,13 @@
 	cd darknet
 	make
 	wget https://pjreddie.com/media/files/yolo3.weights
+
+Install:
+g++ stereo_calib.cpp -o em `pkg-config --cflags --libs opencv4`
+
+Calibration:
+./em -nr -num=58 -s=2.5
+
 Errors:
 1) Opencv Errors
 (Re)Install opencv
